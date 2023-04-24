@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="shortcut icon" type="image/png" href="/flavicon.png"/>
+  <title>Psykédiaz</title>
+  <style>
+    @keyframes cube {
+    from {
+        transform: scale(0) rotate(0deg) translate(-50%, -50%);
+        opacity: 1;
+    }
+    to {
+        transform: scale(20) rotate(960deg) translate(-50%, -50%);
+        opacity: 0;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #103c94;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #0e3685;
+    color: transparent;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    animation: cube 8s ease-in forwards infinite;
+}
+.background li:nth-child(0) {
+    animation-delay: 0s;
+    left: 11vw;
+    top: 87vh;
+}
+
+.background li:nth-child(1) {
+    animation-delay: 2s;
+    left: 6vw;
+    top: 3vh;
+}
+
+.background li:nth-child(2) {
+    animation-delay: 4s;
+    left: 87vw;
+    top: 13vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(3) {
+    animation-delay: 6s;
+    left: 43vw;
+    top: 96vh;
+}
+
+.background li:nth-child(4) {
+    animation-delay: 8s;
+    left: 94vw;
+    top: 35vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(5) {
+    animation-delay: 10s;
+    left: 96vw;
+    top: 26vh;
+}
+
+.background li:nth-child(6) {
+    animation-delay: 12s;
+    left: 39vw;
+    top: 45vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(7) {
+    animation-delay: 14s;
+    left: 74vw;
+    top: 55vh;
+}
+
+.background li:nth-child(8) {
+    animation-delay: 16s;
+    left: 72vw;
+    top: 29vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(9) {
+    animation-delay: 18s;
+    left: 33vw;
+    top: 44vh;
+}
+
+.background li:nth-child(10) {
+    animation-delay: 20s;
+    left: 60vw;
+    top: 53vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(11) {
+    animation-delay: 22s;
+    left: 79vw;
+    top: 81vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(12) {
+    animation-delay: 24s;
+    left: 20vw;
+    top: 64vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(13) {
+    animation-delay: 26s;
+    left: 49vw;
+    top: 94vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(14) {
+    animation-delay: 28s;
+    left: 56vw;
+    top: 84vh;
+}
+
+.background li:nth-child(15) {
+    animation-delay: 30s;
+    left: 50vw;
+    top: 76vh;
+}
+
+.background li:nth-child(16) {
+    animation-delay: 32s;
+    left: 64vw;
+    top: 72vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(17) {
+    animation-delay: 34s;
+    left: 14vw;
+    top: 6vh;
+}
+
+.background li:nth-child(18) {
+    animation-delay: 36s;
+    left: 26vw;
+    top: 19vh;
+    border-color: #1142a2;
+}
+
+.background li:nth-child(19) {
+    animation-delay: 38s;
+    left: 28vw;
+    top: 59vh;
+}
+
+.background li:nth-child(20) {
+    animation-delay: 40s;
+    left: 84vw;
+    top: 12vh;
+}
+
+.background li:nth-child(21) {
+    animation-delay: 42s;
+    left: 3vw;
+    top: 36vh;
+    border-color: #1142a2;
+}
+
+    .card{
+      width: 500px;
+      border-radius: 15px;
+      text-align: center;
+      overflow: hidden;
+    }   
+    a{
+      color: black;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: none;  
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <ul class="background">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+ </ul>
+  <div class="card position-absolute top-50 start-50 translate-middle">
+    <div class="card-header">
+      Psykédiaz
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Laisses-toi envouter !</h5>
+      <a class="btn btn-outline-dark" href="jeu.html" role="button">Prêt(e)s ?</a>
+    </div>
+  </div>
+</body>
+</html>
